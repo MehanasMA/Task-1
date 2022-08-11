@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.body{
+   display: flex;
+    height: 100vh;
+    flex-direction: column;
+    display: ;
+   
+}
+.nav{
+   display: flex;
+   justify-content:flex-end;
+   min-width: 13vw;
+   align-items: center;
+   margin-top: 15px;
+   margin-right: 20px;
+   
+  
+}
+
+.nav a{
+    margin-right: 50px;
+    color: rgba(0,0,0,0.8);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav .nav_apps{
+    margin-right: 20px;
+}
+
+.container{
+    flex: 1;
+    display: flex;
+    margin-top: 12%;
+    flex-direction: column;
+}
+.container img{
+    object-fit: contain;
+    height: 100px;
+}
+
+.search_input{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    height: 20px;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 560px;
+}
+
+.search_input input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.search_buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.search_buttons button{
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: aliceblue;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color:rgba(153, 143, 143, 0.1);
+    bottom: 0;
+    position: absolute;
+    color: gray;
+}
+
+.india{
+    margin-left: 20px;
+    height: 40%;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+   
+}
+
+.footer2{
+    height: 50%;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    
+    
+    
+}
+.footer_left{
+    float: left;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.footer_right{
+    float: right;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+
+
+
+
